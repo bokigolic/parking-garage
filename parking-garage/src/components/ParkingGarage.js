@@ -35,6 +35,8 @@ const ParkingGarage = () => {
       <h3>Parking Garage</h3>
       <p>Display of parking spaces in the shopping center</p>
       <h3>Monitor Garage</h3>
+
+      <h3>Widget for prak new car</h3>
     </div >
   )
 };

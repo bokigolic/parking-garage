@@ -1,4 +1,6 @@
 import ParkingGarage from "./components/ParkingGarage";
+import '../src/scss/style.scss';
+
 
 
 function App() {
