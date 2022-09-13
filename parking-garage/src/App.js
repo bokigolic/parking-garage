@@ -1,9 +1,10 @@
+import ParkingGarage from "./components/ParkingGarage";
 
 
 function App() {
   return (
     <div className="App">
-      <h3>Parking Garage</h3>
+      <ParkingGarage />
     </div>
   );
 }
