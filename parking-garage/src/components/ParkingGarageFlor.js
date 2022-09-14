@@ -1,8 +1,8 @@
-const ParkingGarageFlor = () => {
+const ParkingGarageFlor = (props) => {
   return (
     <div className="middle-flor">
       <header>
-         A
+         {props.midleFlor === "florA" ? "A":"B"}
       </header>
       <div className="parking-spot-list">
         <div className="spot">

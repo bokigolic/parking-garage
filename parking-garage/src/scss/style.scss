@@ -5,8 +5,13 @@
     align-items: center;
     justify-content: flex-start;
 
-   header{
+    border:1px solid black;
+
+   >header{
     width: 60px;
+    text-align: center;
+    font-weight: 700;
+
    }
 
     .middle-flor {
@@ -23,7 +28,7 @@
 
       .parking-spot-list {
         .spot {
-          border: 2px dashed rgb(249, 15, 15);
+          border: 1px dashed rgb(249, 15, 15);
           font-size: 11px;
           width: 50px;
           text-align: center;
