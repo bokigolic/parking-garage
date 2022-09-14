@@ -1,0 +1,38 @@
+.monitor-garage {
+  .flor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+   header{
+    width: 60px;
+   }
+
+    .middle-flor {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+
+
+      header {
+        width: 20px;
+        font-weight: 700;
+      }
+
+      .parking-spot-list {
+        .spot {
+          border: 2px dashed rgb(249, 15, 15);
+          font-size: 11px;
+          width: 50px;
+          text-align: center;
+
+        }
+      }
+
+
+
+    }
+  }
+}
